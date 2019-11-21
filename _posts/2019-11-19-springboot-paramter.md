@@ -9,9 +9,14 @@ tags:
     - springboot
 ---
 
-
-# spring boot接收各种参数总结：
-## 1. 参数为简单对象（参数为基本类型时）
+## 目录
+1. [参数为简单对象](#参数为简单对象（参数为基本类型时）)
+    1. [使用Json提交](#使用Json进行数据传输)
+    2. [使用表单提交](#使用表单进行数据传输)
+2. [参数为复杂对象](#复杂对象)
+3. [参数为数组或者map](#参数为数组、列表或者Map时)
+## spring boot接收各种参数总结：
+### 参数为简单对象（参数为基本类型时）
 ``` java
 //实体类
 @Setter
@@ -22,7 +27,7 @@ public Class User{
   private Integer age;
 }
 ```
-### 使用Json进行数据传输
+#### 使用Json进行数据传输
 前端：
 ``` js
 var param = {name:zhsnasn,age:18} //构造一个js对象
@@ -51,7 +56,7 @@ public Class UserController{
   }
 }
 ```
-### 使用表单进行数据传输
+#### 使用表单进行数据传输
 ``` js
 var param = {name:zhsnasn,age:18} //构造一个js对象
 //post提交contentType默认为 "application/x-www-form-urlencoded"
@@ -71,7 +76,8 @@ public Class UserController{
   }
 }
 ```
-## 2. 复杂对象 一般使用json传输
+### 复杂对象
+#### 一般使用json传输
 ``` java
 //实体类
 @Setter
@@ -134,7 +140,8 @@ public Class UserController{
   }
 }
 ```
-## 3. 当Controller中方法参数要使用数组、列表或者Map进行接收时，可以使用@RequestParam注解。
+### 参数为数组、列表或者Map时
+#### 应当使用@RequestParam注解。
 前台
 ```js
 var dataList = [1,2,3,4]
