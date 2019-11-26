@@ -4,9 +4,9 @@ title:      "关闭Windows Defender Antivirus Service"
 subtitle:   "让你的电脑起飞"
 date:       2019-11-26
 author:     "无力去闹"
-header-img: "img/post-bg-js-version.jpg"
+#header-img: "img/post-bg-js-version.jpg"
 tags:
-    - MYSQL
+    - Windows
 ---
 1. 如果是专业版，Windows+R打开运行，输入“gpedit.msc”回车，打开策略组，在策略组定位到"计算机配置 >管理模板 >Windows组件 >Windows  Defender",
 查看“关闭Windwos defender”的配置，双击在属性中改为启用。

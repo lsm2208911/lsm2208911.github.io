@@ -4,7 +4,7 @@ title:      "Git配置网络代理"
 subtitle:   "世界没有难用的工具"
 date:       2019-11-21
 author:     "无力去闹"
-header-img: "img/post-bg-js-version.jpg"
+#header-img: "img/post-bg-js-version.jpg"
 tags:
     - Git
 ---

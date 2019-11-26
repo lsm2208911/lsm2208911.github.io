@@ -4,7 +4,7 @@ title:      "springboot Controller 传参总结"
 subtitle:   "@RequestPara 与 @RequestBody用法"
 date:       2019-11-19
 author:     "无力去闹"
-header-img: "img/post-bg-js-version.jpg"
+#header-img: "img/post-bg-js-version.jpg"
 tags:
     - springboot
 ---
