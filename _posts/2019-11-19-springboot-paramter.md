@@ -140,7 +140,7 @@ public Class UserController{
   }
 }
 ```
-### 参数为数组、列表或者Map时
+### 3.=参数为数组、列表或者Map时
 #### 应当使用@RequestParam注解。
 前台
 ```js

@@ -6,7 +6,7 @@ date:       2019-11-21
 author:     "无力去闹"
 header-img: "img/post-bg-js-version.jpg"
 tags:
-    - springboot
+    - Git
 ---
 配置 git 代理- 通过 git config 命令：
 ```
